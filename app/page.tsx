@@ -118,7 +118,7 @@ return (
         </div>)
     }
 
-    <button className='bg-blue-600 p-2 rounded m-8'>Close the Game</button>
+    <button className='bg-blue-600 p-2 rounded m-8' onClick={closeGame}>Close the Game</button>
   </div>
 )
 }
